@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+header {
+  padding: 20px;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-form {
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  z-index: 2;
+  margin: 20px auto 100px;
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+#dataList {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+#btn-modal {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.trash-button {
+  background: url("../style/icon/trash-outline.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+  border: none;
+}
